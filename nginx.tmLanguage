@@ -156,12 +156,6 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(gzip_static|gzip_disable|gzip_http_version|gzip_proxied|gzip_vary)\b</string>
-			<key>name</key>
-			<string>constant.language.module.http.gzip_static</string>
-		</dict>
-		<dict>
-			<key>match</key>
 			<string>\b(add_header|expires)\b</string>
 			<key>name</key>
 			<string>constant.language.module.http.headers</string>
@@ -183,12 +177,6 @@
 			<string>\b(limit_zone|limit_conn|limit_conn_log_level)\b</string>
 			<key>name</key>
 			<string>constant.language.module.http.limit_zone</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>\b(limit_conn_zone|limit_conn|limit_conn_log_level)\b</string>
-			<key>name</key>
-			<string>constant.language.module.http.limit_conn</string>
 		</dict>
 		<dict>
 			<key>match</key>
