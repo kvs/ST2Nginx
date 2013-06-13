@@ -272,7 +272,7 @@
 			<key>match</key>
 			<string>\b(stub_status)\b</string>
 			<key>name</key>
-			<string>constant.language.module.http.stub_status</string>
+			<string>constant.language.module.http.stub_status </string>
 		</dict>
 	</array>
 	<key>scopeName</key>
