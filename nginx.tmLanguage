@@ -186,6 +186,12 @@
 		</dict>
 		<dict>
 			<key>match</key>
+			<string>\b(limit_conn_zone|limit_conn|limit_conn_log_level)\b</string>
+			<key>name</key>
+			<string>constant.language.module.http.limit_conn</string>
+		</dict>
+		<dict>
+			<key>match</key>
 			<string>\b(access_log|log_format|open_log_file_cache)\b</string>
 			<key>name</key>
 			<string>constant.language.module.http.log</string>
