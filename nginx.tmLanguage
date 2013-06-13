@@ -268,6 +268,12 @@
 			<key>name</key>
 			<string>constant.language.module.http.uwsgi</string>
 		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(stub_status)\b</string>
+			<key>name</key>
+			<string>constant.language.module.http.stub_status</string>
+		</dict>
 	</array>
 	<key>scopeName</key>
 	<string>source.nginx</string>
