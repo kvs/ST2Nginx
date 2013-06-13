@@ -156,6 +156,12 @@
 		</dict>
 		<dict>
 			<key>match</key>
+			<string>\b(gzip_static|gzip_disable|gzip_http_version|gzip_proxied|gzip_vary)\b</string>
+			<key>name</key>
+			<string>constant.language.module.http.gzip_static</string>
+		</dict>
+		<dict>
+			<key>match</key>
 			<string>\b(add_header|expires)\b</string>
 			<key>name</key>
 			<string>constant.language.module.http.headers</string>
@@ -177,6 +183,12 @@
 			<string>\b(limit_zone|limit_conn|limit_conn_log_level)\b</string>
 			<key>name</key>
 			<string>constant.language.module.http.limit_zone</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(limit_conn_zone|limit_conn|limit_conn_log_level)\b</string>
+			<key>name</key>
+			<string>constant.language.module.http.limit_conn</string>
 		</dict>
 		<dict>
 			<key>match</key>
@@ -255,6 +267,12 @@
 			<string>\b(uwsgi_bind|uwsgi_buffer_size|uwsgi_buffering|uwsgi_buffers|uwsgi_busy_buffers_size|uwsgi_cache|uwsgi_cache_bypass|uwsgi_cache_key|uwsgi_cache_methods|uwsgi_cache_min_uses|uwsgi_cache_path|uwsgi_cache_use_stale|uwsgi_cache_valid|uwsgi_connect_timeout|uwsgi_hide_header|uwsgi_ignore_client_abort|uwsgi_ignore_headers|uwsgi_intercept_errors|uwsgi_max_temp_file_size|uwsgi_modifier1|uwsgi_modifier2|uwsgi_next_upstream|uwsgi_no_cache|uwsgi_param|uwsgi_pass|uwsgi_pass_header|uwsgi_pass_request_body|uwsgi_pass_request_headers|uwsgi_read_timeout|uwsgi_send_timeout|uwsgi_store|uwsgi_store_access|uwsgi_string|uwsgi_temp_file_write_size|uwsgi_temp_path)\b</string>
 			<key>name</key>
 			<string>constant.language.module.http.uwsgi</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(stub_status)\b</string>
+			<key>name</key>
+			<string>constant.language.module.http.stub_status</string>
 		</dict>
 	</array>
 	<key>scopeName</key>
